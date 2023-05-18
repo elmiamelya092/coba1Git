@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Formulir</title>
+</head>
+<body>
+	<h2>Formulir Pendaftaran Mahasiswa Baru</h2>
+<form>
+	<table>
+		<tr>
+			<td>Nim</td>
+			<td><input type="number" name="nim" required placeholder="Masukan nim..."></td>
+		</tr>
+		<tr>
+			<td>Nama</td>
+			<td><input type="text" name="nama" required placeholder="Masukan nama..."></td>
+		</tr>
+		<tr>
+			<td>Alamat</td>
+			<td><input type="text" name="alamat" required placeholder="Masukan alamat"></td>
+		</tr>
+		<tr>
+			<td>Tempat Lahir</td>
+			<td><input type="text" name="tempat_lahir" required placeholder="Masukan tempat..."></td>
+		</tr>
+		<tr>
+			<td>Tanggal Lahir</td>
+			<td><input type="date" name="tanggal_lahir"></td>
+		</tr>
+		<tr>
+			<td>Agama</td>
+			<td>
+				<select name="agama"> 
+					<option value="">--Pilih Agama</option>
+					<option name="islam">Islam</option>
+					<option name="kristen">Kristen</option>
+					<option name="hindu">Hindu</option>
+					<option name="buddha">Buddha</option>
+					<option name="khatolik">Khatolik</option>
+					
+				</select>
+		</tr>
+		<tr>
+			<td>Jenis Kelamin</td>
+			<td>
+				<input type="radio" name="laki_laki">Laki-Laki
+				<input type="radio" name="perempuan">Perempuan
+
+			</td>
+		</tr>
+		<tr>
+			<td>Hobi</td>
+			<td>
+				<input type="radio" name="bola_voli"> Bola Voli
+				<br>
+				<input type="radio" name="sepak_bola">Sepak Bola
+				<br>
+				<input type="radio" name="bulu_tangkis">Bulu Tangkis
+				<br>
+				<input type="radio" name="membaca">Membaca
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td>Asal Sekolah</td>
+			<td>
+				<select name="asal_sekolah">
+					<option value="">== Pilih Sekolah ==</option>
+					<option value="sman_1_mawasangka">SMAN 1 MAWASANGKA</option>
+					<option value="sman_2_mawasangka">SMAN 2 MAWASANGKA</option>
+					<option value="sman_3_mawasangka">SMAN 3 MAWASANGKA</option>
+					
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Tahun Lulus</td>
+			<td>
+				<select name="tahun_lulus">
+					<option value="2018">2018</option>
+					<option value="2019">2019</option>
+					<option value="2020">2020</option>
+					<option value="2021">2021</option>
+					
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td>Pilih Jurusan</td>
+			<td>
+				<input type="checkbox" name="ilmu_komputer">Ilmu Komputer
+				<br>
+				<input type="checkbox" name="ilmu_kelautan">Ilmu Kelautan
+				<br>
+				<input type="checkbox" name="teknik_mesin">Teknik Mesin
+				<br>
+				<input type="checkbox" name="teknik_perkapalan">Teknik Perkapalan
+				<br>
+				<input type="checkbox" name="matematika">Matematika
+				<br>
+				<input type="checkbox" name="perikanan">Perikanan
+				<br>
+				<input type="checkbox" name="perternakan">Perternakan
+				<br>
+				<input type="checkbox" name="ilmu_kelautan">Ilmu Kelautan
+				<br>
+			</td>
+		</tr>
+		<tr>
+			<td>Bukti Pembayaran</td>
+			<td><input type="file" name="bukti_pembayaran"></td>
+		</tr>
+		<tr>
+			<td>E-mail</td>
+			<td><input type="email" name="email" required placeholder="Masukan email..."></td>
+		</tr>
+		<tr>
+			<td>Username</td>
+			<td><input type="text" name="username" required placeholder="Masukan username"></td>
+		</tr>
+		<tr>
+			<td>Password</td>
+			<td><input type="password" name="password" required placeholder="Masukan Password..."></td>
+		</tr>
+
+	</table>
+	<br>
+	<button type="submit">Simpan</button>
+	<button type="reset">Batalkan</button>
+</form>
+</body>
+</html>
